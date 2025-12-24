@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif ;
+}
+
+label, input, textarea {
+    display: block;
+}
+
+textarea {
+
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: 16px;
+}
+
+input {
+    margin: 3px 0px 6px;
+    width: 200px;
+}
+
+fieldset {
+    display: inline-block;
+    width: 250px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+textarea {
+    margin: 3px 0px 10px;
+    display: inline-block;
+    width: 200px;
+    resize:vertical;
+}
+
+label input[type="checkbox"] {
+    margin-bottom: 12px;
+}
+
