@@ -1,0 +1,40 @@
+a {
+    color: inherit;
+}
+
+.container {
+    padding: 0 200px;
+}
+
+.header-container,
+.header-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon,
+.header-tel {
+    text-decoration-line: none;
+}
+
+.header-item {
+    align-self: center;
+    margin: 0 20px;
+}
+
+.header-icon {
+    width: 40px;
+    height: 40px;
+    border: 10px solid black;
+}
+
+.header-links {
+    width: 500px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px 200px;
+}
